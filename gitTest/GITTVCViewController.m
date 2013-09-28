@@ -55,7 +55,15 @@
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    cell.textLabel.text = [NSString stringWithFormat:@"Cell #%d",indexPath.row];
+    if (indexPath.row == 0) {
+        cell.textLabel.text = @"HEADER";
+        cell.backgroundColor = [UIColor cyanColor];
+    }
+    
+    else {
+        cell.textLabel.text = [NSString stringWithFormat:@"Cell #%d",indexPath.row];
+    }
+    
     
     return cell;
 }
