@@ -1,5 +1,5 @@
 //
-//  GITViewController.h
+//  GITTVCViewController.h
 //  gitTest
 //
 //  Created by Matt Remick on 9/27/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GITViewController : UIViewController
+@interface GITTVCViewController : UITableViewController
 
 @end
