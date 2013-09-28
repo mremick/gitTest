@@ -14,13 +14,13 @@
 		3E2B70C717F674D500280452 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2B70C617F674D500280452 /* main.m */; };
 		3E2B70CB17F674D500280452 /* GITAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2B70CA17F674D500280452 /* GITAppDelegate.m */; };
 		3E2B70CE17F674D500280452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2B70CC17F674D500280452 /* Main.storyboard */; };
-		3E2B70D117F674D500280452 /* GITViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2B70D017F674D500280452 /* GITViewController.m */; };
 		3E2B70D317F674D500280452 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2B70D217F674D500280452 /* Images.xcassets */; };
 		3E2B70DA17F674D500280452 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2B70D917F674D500280452 /* XCTest.framework */; };
 		3E2B70DB17F674D500280452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2B70BA17F674D500280452 /* Foundation.framework */; };
 		3E2B70DC17F674D500280452 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2B70BE17F674D500280452 /* UIKit.framework */; };
 		3E2B70E417F674D500280452 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E2B70E217F674D500280452 /* InfoPlist.strings */; };
 		3E2B70E617F674D500280452 /* gitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2B70E517F674D500280452 /* gitTestTests.m */; };
+		3E2B70F117F674FF00280452 /* GITTVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2B70F017F674FF00280452 /* GITTVCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		3E2B70C917F674D500280452 /* GITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GITAppDelegate.h; sourceTree = "<group>"; };
 		3E2B70CA17F674D500280452 /* GITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GITAppDelegate.m; sourceTree = "<group>"; };
 		3E2B70CD17F674D500280452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3E2B70CF17F674D500280452 /* GITViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GITViewController.h; sourceTree = "<group>"; };
-		3E2B70D017F674D500280452 /* GITViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GITViewController.m; sourceTree = "<group>"; };
 		3E2B70D217F674D500280452 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3E2B70D817F674D500280452 /* gitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2B70D917F674D500280452 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3E2B70E117F674D500280452 /* gitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitTestTests-Info.plist"; sourceTree = "<group>"; };
 		3E2B70E317F674D500280452 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E2B70E517F674D500280452 /* gitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTestTests.m; sourceTree = "<group>"; };
+		3E2B70EF17F674FF00280452 /* GITTVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITTVCViewController.h; sourceTree = "<group>"; };
+		3E2B70F017F674FF00280452 /* GITTVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITTVCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				3E2B70C917F674D500280452 /* GITAppDelegate.h */,
 				3E2B70CA17F674D500280452 /* GITAppDelegate.m */,
 				3E2B70CC17F674D500280452 /* Main.storyboard */,
-				3E2B70CF17F674D500280452 /* GITViewController.h */,
-				3E2B70D017F674D500280452 /* GITViewController.m */,
+				3E2B70EF17F674FF00280452 /* GITTVCViewController.h */,
+				3E2B70F017F674FF00280452 /* GITTVCViewController.m */,
 				3E2B70D217F674D500280452 /* Images.xcassets */,
 				3E2B70C117F674D500280452 /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E2B70F117F674FF00280452 /* GITTVCViewController.m in Sources */,
 				3E2B70C717F674D500280452 /* main.m in Sources */,
-				3E2B70D117F674D500280452 /* GITViewController.m in Sources */,
 				3E2B70CB17F674D500280452 /* GITAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
