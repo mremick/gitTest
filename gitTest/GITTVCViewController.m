@@ -60,6 +60,11 @@
         cell.backgroundColor = [UIColor cyanColor];
     }
     
+    else if (indexPath.row == 1) {
+        cell.textLabel.text = @"Sub-Header";
+        cell.backgroundColor = [UIColor orangeColor];
+    }
+    
     else {
         cell.textLabel.text = [NSString stringWithFormat:@"Cell #%d",indexPath.row];
     }
