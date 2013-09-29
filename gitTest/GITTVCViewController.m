@@ -61,9 +61,7 @@
         cell.backgroundColor = [UIColor cyanColor];
     }
     
-    else if (indexPath.row == 19) {
-        cell.textLabel.text = @"This is the last Cell";
-    }
+    
     
     else {
         cell.textLabel.text = [NSString stringWithFormat:@"Cell #%d",indexPath.row];
